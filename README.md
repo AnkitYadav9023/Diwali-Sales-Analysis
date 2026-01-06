@@ -1,85 +1,81 @@
-# 🍕 Pizza Sales Dashboard – Power BI Project
-![Pizza Sales Dashboard](ScreenShot/dashboard.png)
+# 🎇 Diwali Sales Analysis
 
-## 📊 Project Overview
-This Power BI project analyzes pizza sales data to uncover key business insights related to revenue,
-order patterns, customer preferences, and product performance over the year 2015.
-
-The dashboard provides an interactive view of sales trends, category-wise performance,
-and customer ordering behavior to support data-driven decision-making.
+## 📌 Project Overview
+This project analyzes **Diwali sales data** to uncover customer purchasing behavior, identify high-value customer segments, and derive actionable business insights.  
+The analysis is performed using **Python, Pandas, Matplotlib, and Seaborn** in Google Colab.
 
 ---
 
-## 🛠 Tools & Technologies
-- Power BI Desktop
-- Excel / CSV Dataset
-- SQL (for data preparation & analysis)
+## 📂 Project Structure
+Diwali-Sales-Analysis/
+│
+├── Data/
+│ └── diwali_sales_data.csv
+│
+├── Output/
+│ └── Saved charts and visualizations
+│
+├── Diwali_Sales_Analysis.ipynb
+│
+└── README.md
 
 ---
 
-## 📌 Key KPIs
-- **Total Revenue:** 817.86K
-- **Total Orders:** 21.35K
-- **Total Pizzas Sold:** 49.57K
-- **Average Order Value:** 38.3
-- **Average Pizzas per Order:** 2.32
+## 🛠 Tools & Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
 
 ---
 
-## 📈 Business Insights
+## 📊 Exploratory Data Analysis (EDA)
+The following analyses were performed:
 
-### 🔹 Overall Performance
-- The business generated **817.86K in revenue** from **21.35K orders**, indicating strong annual sales.
-- Customers order **2.32 pizzas per order on average**, showing a tendency for multi-item purchases.
+- Gender-wise customer distribution
+- Age group analysis with gender segmentation
+- Total sales amount by age group
+- Top 10 states by number of orders
+- Marital status distribution
+- Sales by marital status and gender
+- Top product categories by total sales amount
+- Sales contribution by occupation
 
----
-
-### 🔹 Daily Order Trend
-- **Friday** recorded the **highest number of orders**, making it the busiest day of the week.
-- **Sunday** had the lowest order volume, suggesting lower weekend-start demand.
-- Orders steadily increase from Monday to Friday, indicating strong weekday performance.
-
----
-
-### 🔹 Monthly Sales Trend
-- **July** showed the **highest number of orders**, indicating peak seasonal demand.
-- **October and September** experienced the lowest sales, suggesting possible seasonal slowdown.
-- Sales remain relatively stable during the first half of the year.
+All visualizations are saved in the **Output/** folder with meaningful names.
 
 ---
 
-### 🔹 Category-wise Sales Contribution
-- **Classic pizzas** contribute the highest share of total sales (~29%).
-- **Supreme and Veggie** categories perform almost equally, showing balanced customer preferences.
-- **Chicken pizzas** have the lowest contribution but still maintain a significant share.
+## 🔍 Key Insights
+- **Female customers** contribute significantly more to total purchases compared to males.
+- The **26–35 age group** shows the highest purchasing power.
+- **Uttar Pradesh, Maharashtra, and Karnataka** are the top contributing states.
+- **Married customers**, especially women, show higher spending behavior.
+- Customers working in **IT, Healthcare, and Aviation** sectors contribute the most to sales.
+- **Food, Clothing, and Electronics** are the top-selling product categories.
 
 ---
 
-### 🔹 Pizza Size Preference
-- **Large pizzas** are the most popular, contributing **36.43%** of total sales.
-- **Medium and Regular sizes** together account for over **60%**, showing strong mid-size demand.
-- **X-Large and XX-Large pizzas** have minimal sales, indicating limited customer preference.
+## ✅ Final Conclusion
+**Married women aged 26–35 years from Uttar Pradesh, Maharashtra, and Karnataka, working in IT, Healthcare, and Aviation sectors, are more likely to purchase products from Food, Clothing, and Electronics categories.**
+
+This customer segment represents a **high-value target group** for marketing campaigns, festive offers, and personalized promotions during Diwali sales.
 
 ---
 
-## 📊 Dashboard Features
-- Dynamic date slicer for time-based analysis
-- KPI cards for quick performance overview
-- Day-wise and month-wise trend analysis
-- Category and size-based sales breakdown
-- Interactive visuals for deeper insights
+## 📈 Business Recommendations
+- Focus marketing campaigns on **married women aged 26–35**
+- Prioritize **UP, Maharashtra, and Karnataka** for regional promotions
+- Offer festive discounts on **Food, Clothing, and Electronics**
+- Design occupation-specific offers for **IT, Healthcare, and Aviation professionals**
 
 ---
 
-## ▶️ How to Run This Project
-1. Download the `.pbix` file from the `Dashboard` folder
-2. Open it using **Power BI Desktop**
-3. Load the dataset from the `Data` folder if prompted
-4. Click **Refresh** to view the dashboard
+## 🚀 Future Scope
+- Predictive modeling for customer purchase behavior
+- Customer segmentation using clustering
+- Sales forecasting for festive seasons
+- Dashboard creation using Power BI or Tableau
 
 ---
-
-## 🚀 Conclusion
-This dashboard provides a clear understanding of pizza sales performance,
-helping stakeholders identify peak demand periods, customer preferences,
-and opportunities for business optimization using data-driven insights.
