@@ -7,6 +7,8 @@ The analysis is performed using **Python, Pandas, Matplotlib, and Seaborn** in G
 ---
 
 ## 📂 Project Structure
+
+```text
 Diwali-Sales-Analysis/
 │
 ├── Data/
@@ -18,6 +20,7 @@ Diwali-Sales-Analysis/
 ├── Diwali_Sales_Analysis.ipynb
 │
 └── README.md
+
 
 
 ---
@@ -80,4 +83,5 @@ This customer segment represents a **high-value target group** for marketing cam
 - Dashboard creation using Power BI or Tableau
 
 ---
+
 
