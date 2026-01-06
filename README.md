@@ -21,7 +21,7 @@ Diwali-Sales-Analysis/
 │
 └── README.md
 
-
+```
 
 ---
 
@@ -83,5 +83,6 @@ This customer segment represents a **high-value target group** for marketing cam
 - Dashboard creation using Power BI or Tableau
 
 ---
+
 
 
